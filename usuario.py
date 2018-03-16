@@ -17,7 +17,7 @@ class Usuario :
             print ("Password invalido. Debe tener mas de 4 caracteres")
 
     def login(self, username, password):
-        if username == self.username & password == self.password :
+        if (username == self.username and password == self.password) :
             print("Ha iniciado sesion")
             self.sessionStarted = True
         else :
